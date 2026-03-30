@@ -93,19 +93,6 @@ git push -u origin main
 
 ---
 
-## Hugging Face Deployment
-
-1. Go to https://huggingface.co/spaces and click "Create new Space"
-2. Choose SDK: Gradio
-3. Connect your GitHub repo OR upload files manually
-4. Go to Settings > Variables and secrets
-5. Add a secret: Name = `GROQ_API_KEY`, Value = your Groq API key
-6. The app will build and deploy automatically
-
-The YAML block at the top of this README configures the Space automatically.
-
----
-
 ## Project Structure
 
 ```
@@ -117,16 +104,6 @@ aria-chatbot/
 ├── .gitignore          # Git ignore rules
 └── README.md           # This file
 ```
-
----
-
-## Portfolio Description
-
-You can use this description for your portfolio, resume, or LinkedIn:
-
-> Built a production-ready conversational AI chatbot using Groq's API with the Llama 3.3 70B model. Implemented full session memory, custom system prompting, and a polished Gradio interface. Deployed on Hugging Face Spaces. Technologies: Python, Groq API, Gradio, python-dotenv.
-
----
 
 ## License
 
